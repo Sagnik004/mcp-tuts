@@ -1,5 +1,5 @@
-fastapi 
-fastapi-mcp 
+fastapi
+fastapi-mcp
 uvicorn
 fastmcp
 feedparser
