@@ -1,0 +1,9 @@
+{
+  "chat.mcp.serverSampling": {
+    "mcp-fcc-course/.vscode/mcp.json: FeedSearch-STDIO": {
+      "allowedModels": [
+        "copilot/o3-mini"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "servers": {
+    // Basic Stdio MCP With FastMCP scenario
+    "Calculator-STDIO": {
+      "command": "E:/000-AI/tutorials/youtube/mcp-tuts/mcp-fcc-course/.venv/Scripts/python.exe",
+      "args": [
+        "BasicStdioMcpWithFastMCP/fastmcp_calculator.py"
+      ]
+    },
+
+    // FastAPI MCP HTTP scenario
+    "Calculator-HTTP": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://localhost:8002/mcp"
+      ]
+    },
+
+    // Feed Search MCP With FastMCP scenario
+    "FeedSearch-STDIO": {
+      "command": "E:/000-AI/tutorials/youtube/mcp-tuts/mcp-fcc-course/.venv/Scripts/python.exe",
+      "args": [
+        "FeedSearch/feed_search_fast_mcp.py"
+      ]
+    }
+  }
+}
